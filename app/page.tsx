@@ -2,17 +2,26 @@ import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Spacing } from "@/components/Spacing";
 import { Status } from "@/components/Status";
+import { Skills } from "@/components/Skills"; 
 
 export default function Home() {
-  return <main>
-    <Header /> 
+  return (
+    <main>
+      <Header />
 
-    <Spacing size="md" />
+      <Spacing size="md" />
 
-    <Hero />
+      <Hero />
 
-    <Spacing size="md" />
+      <Spacing size="md" />
 
-    <Status />
-    </main>;
+      <Status />
+
+      <Spacing size="md" />
+
+      <Skills />
+
+      <Spacing size="md" />
+    </main>
+  );
 }

@@ -7,9 +7,9 @@ import { cn } from "@/lib/utils";
 
 export const Header = () => {
   return (
-    <header className="sticky top-0 py-4">
+    <header className="sticky top-0 py-4 bg-card opacity-50">
       <Section className="flex items-baseline">
-        <h1 className="text-l font-bold text-primary">Jonathan Hachette</h1>
+        <h1 className="text-lg font-semibold opacity-150">Jonathan Hachette</h1>
         <div className="flex-1" />
         <ul className="flex items-center gap-2">
           <Link
