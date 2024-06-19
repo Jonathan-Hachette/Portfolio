@@ -33,7 +33,7 @@ export const Status = () => {
             <TrainingCard
               image="https://media.licdn.com/dms/image/C560BAQENN-_uQarUgQ/company-logo_100_100/0/1630621116083/le_reacteur_logo?e=1726704000&v=beta&t=P9wWcxSD9FzH0dDM8UviWk2CJEPTdeqZm5ryQlHB-fk"
               name="Le Reacteur"
-              description="RNCP"
+              description="Titre RNCP 5 (Bac+2) Développeur Web"
               date="Mai 2024 - Juillet 2024"
             />
             <TrainingCard
