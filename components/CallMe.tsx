@@ -9,7 +9,7 @@ type CallMeProps = {
 
 export const CallMe = ({ Logo, name, description }: CallMeProps) => {
   return (
-    <div className="inline-flex items-center gap-4 hover:bg-accent/50 transition-colors p-1 rounded">
+    <div className="inline-flex items-center gap-4 hover:bg-accent/50 transition-colors p-1 rounded w-full">
       <span className="bg-accent text-accent-foreground p-3 rounded-sm">
         <Logo />
       </span>

@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { LucideIcon } from "lucide-react";
+import Link from "next/link";
 
 type ContactCardProps = {
   Logo: LucideIcon;
@@ -8,12 +9,10 @@ type ContactCardProps = {
   url?: string;
 };
 
-
-
-export const ContactCard = ({Logo, name, description, url }: ContactCardProps) => {
+export const ContactCard = ({ Logo, name, description, url }: ContactCardProps) => {
   return (
-    <a href="mailto:jonathan.hachette@gmail.com">
-      <div className="inline-flex items-center gap-4 hover:bg-accent/50 transition-colors p-1 rounded">
+    <Link href="mailto:jonathan.hachette@gmail.com w-full">
+      <div className="inline-flex items-center gap-4 hover:bg-accent/50 transition-colors p-1 rounded w-full ">
         <span className="bg-accent text-accent-foreground p-3 rounded-sm">
           <Logo />
         </span>
@@ -22,6 +21,6 @@ export const ContactCard = ({Logo, name, description, url }: ContactCardProps) =
           <p className="text-sm text-muted-foreground">{description}</p>
         </div>
       </div>
-    </a>
+    </Link>
   );
 };
