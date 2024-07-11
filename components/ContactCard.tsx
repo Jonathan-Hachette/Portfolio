@@ -16,8 +16,8 @@ export const ContactCard = ({ Logo, name, description, url }: ContactCardProps) 
         <span className="bg-accent text-accent-foreground p-3 rounded-sm">
           <Logo />
         </span>
-        <div>
-          <p className="text-lg font-semibold">{name}</p>
+        <div className="flex-1 min-w-0">
+          <p className="text-sm md:text-base lg:text-lg font-semibold">{name}</p>
           <p className="text-sm text-muted-foreground">{description}</p>
         </div>
       </div>

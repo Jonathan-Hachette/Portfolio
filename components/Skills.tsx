@@ -3,6 +3,7 @@ import { JavaScriptLogo } from "./icons/JavaScriptLogo";
 import { ReactLogo } from "./icons/ReactLogo";
 import { StrapiLogo } from "./icons/StrapiLogo";
 import { TailwindLogo } from "./icons/TailwindLogo";
+import { VueLogo } from "./icons/VueLogo";
 import { Badge } from "./ui/badge";
 
 export const Skills = () => {
@@ -26,7 +27,7 @@ export const Skills = () => {
               <StrapiLogo size={42} />
               <h3 className="text-2xl font-semibold tracking-tight mb-2">Strapi</h3>
               <p className="text-sm text-muted-foreground">
-                I can manage the customization of the CRUD and database.
+                Customization of the CRUD and database.
               </p>
             </div>
           </div>
@@ -38,8 +39,7 @@ export const Skills = () => {
               <ReactLogo size={42} />
               <h3 className="text-2xl font-semibold tracking-tight mb-2">React</h3>
               <p className="text-sm text-muted-foreground">
-                My first step using this framework. I want to develop my React skills with a
-                study-contract.
+                I want to develop my React skills with a study-contract.
               </p>
             </div>
           </div>
@@ -49,8 +49,17 @@ export const Skills = () => {
           <div>
             <div className="flex flex-col gap-4">
               <TailwindLogo size={42} />
-              <h3 className="text-2xl font-semibold tracking-tight mb-2">Tailwind</h3>
+              <h3 className="text-2xl font-semibold tracking-tight mb-2">Tailwind css</h3>
               <p className="text-sm text-muted-foreground">First steps with a css framework.</p>
+            </div>
+          </div>
+        </div>
+        <div className="flex-1 max-md:flex-col gap-4">
+          <div>
+            <div className="flex flex-col gap-4">
+              <VueLogo size={42} />
+              <h3 className="text-2xl font-semibold tracking-tight mb-2">Vue</h3>
+              <p className="text-sm text-muted-foreground">Lurning in progress this framework.</p>
             </div>
           </div>
         </div>
