@@ -59,7 +59,7 @@ export const Skills = () => {
             <div className="flex flex-col gap-4">
               <VueLogo size={42} />
               <h3 className="text-2xl font-semibold tracking-tight mb-2">Vue</h3>
-              <p className="text-sm text-muted-foreground">Lurning in progress this framework.</p>
+              <p className="text-sm text-muted-foreground">Learning in progress this framework.</p>
             </div>
           </div>
         </div>
